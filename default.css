@@ -1,0 +1,429 @@
+html	{
+	height: 100%;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url(images/ST.jpg);
+	background-size: 
+	font-family: sans-serif;
+	font-size: 11pt;
+	font-weight: 400;
+	color: white;
+}
+a:hover {
+	background-color: gold;
+	text-decoration: underline;
+}
+
+
+h1, h2 {
+	margin: 0;
+	padding: 0;
+}
+
+	.title
+	{
+		margin-bottom: 2em;
+		text-transform: uppercase;
+	}
+
+	.title h2
+	{
+		font-weight: 400;
+		font-size: 2em;
+		color: #16a085;
+	}
+	
+	.title .byline
+	{
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #6F6F6F;
+	}
+
+
+
+
+#header-wrapper
+{
+	overflow: hidden;
+	background: url(images/bg01.png) repeat;
+	background-size: 50%;
+	padding: 0em 1em 0em 0em;
+	background: gold;
+}
+
+	#header 
+	{
+		position: relative;
+		overflow: hidden;
+		text-align: center;
+	}
+
+	#logo 
+	{
+		width: 500px;
+		height: 20px;
+		margin: 0 auto;
+		padding: 2em 0em;
+		text-transform: uppercase;
+	}
+	
+	#logo h1
+	{
+		letter-spacing: 0.10em;
+		font-size: 3em;
+	}
+	
+	#logo p 
+	{
+		letter-spacing: 0.10em;
+		color: #FFF;
+	}
+	
+	#logo a 
+	{
+		text-decoration: none;
+		color: #FFF;
+	}
+	}
+	
+
+#menu-wrapper
+{
+	background-color: maroon;
+}
+
+#menu {
+	overflow: hidden;
+	height: 100px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+	background-color: maroon;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	letter-spacing: 1px;
+	padding: 0px 40px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.0em;
+	line-height: 100px;
+	border: none;
+	color: #FFF 	;
+	font-style: sans-serif;
+}
+
+
+
+
+#page
+{
+	position: relative;
+	overflow: hidden;
+	padding: 6em 0em 5em 0em;
+}
+
+
+
+h1{ 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+   color: white;
+}
+
+
+
+#highlight1 {
+    font-size:14px;
+    color:#538b01;
+    font-weight:bold;
+    font-style:italic;
+}
+
+#selector {
+    width:100%;
+    height:100%;
+}
+
+
+.containerearth{
+    position: fixed;
+    width: 100%;
+    max-width: 400px;
+}
+
+.containerearth img {
+    width: 500px;
+    height: 100%;
+    background-position: center;
+    position:fixed;
+    padding-left: 500px;
+}
+
+
+
+
+
+{
+  box-sizing: border-box;
+}
+
+
+.containerhomelogo {
+  position: fixed;
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-size: 40px;
+  top:180px;
+  right: 550px;
+  color: gold;
+}
+
+.containerhomelogo img {vertical-align: middle;}
+
+.containerhomelogo .contenthomelogo {
+  position: absolute;
+  bottom: 0;
+  color: gold;
+  width: 90%;
+  height: 90%;
+  padding: 16px;
+  
+}
+
+p {
+  text-shadow: 2px 1px 1px white, 0 0 4px white, 0 0 10px grey;
+  text-align: center;
+}
+
+
+.containerearth .btn {
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #800000;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.containerearth .btn:hover {
+    background-color: gold;
+}
+
+
+
+
+
+
+.containerfire{
+    position: fixed;
+    width: 100%;
+    max-width: 400px;
+    padding-bottom: 2000px;
+}
+
+.containerfire img {
+    width: 500px;
+    height: 200%;
+    background-position: center;
+    position:relative;
+    padding-left: 0px;
+  
+}
+
+
+.containerfire .btn {
+    position: fixed;
+    top: 70%;
+    left: 15%;
+
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #800000;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.containerfire .btn:hover {
+    background-color: gold;
+}
+
+
+
+.containerflood{
+    position: fixed;
+    width: 100%;
+    max-width: 400px;
+}
+
+.containerflood img {
+    width: 600px;
+    height: 100%;
+    background-position: center;
+    position:relative;
+    padding-left: 1000px;
+}
+
+
+.containerflood .btn {
+    position: fixed;
+    top: 70%;
+    left: 85%;
+
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #800000;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.containerflood .btn:hover {
+    background-color: gold;
+
+}
+
+.mark.red {
+    color:red;
+    background-color: red;
+}
+
+.blackfont{
+	font color: red;
+}
+
+.containersafe{
+	width: 600px;
+	margin: auto;
+}
+
+
+
+.containermain{
+    position: fixed;
+    width: 100%;
+    max-width: 400px;
+}
+
+.containermain img {
+    width: 500px;
+    height: 100%;
+    background-position: center;
+    position:fixed;
+    padding-left: 500px;
+}
+
+
+.containermain .btn {
+    position: fixed;
+    top: 70%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #800000;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.containermain .btn:hover {
+    background-color: gold;
+}
+
+a:hover {
+	background-color: gold;
+}
+
+.dropbtn {
+  background-color: maroon;
+  color: white;
+  padding: 42px;
+  font-size: 1.0em;
+  border: none;
+}
+
+.dropdown {
+  position: inherit;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: maroon;
+  min-width: 170px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: gold;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: gold;}
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+	
